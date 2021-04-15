@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    font-size: 1rem;
+}
+
+#wrapper{
+    width: 960px;
+    margin: 0 auto;
+}
+
+#wrapper section.header-section{
+    text-align: center;
+    margin: 4em 0 1.2em 0;
+    line-height: 1.5;
+}
+
+#wrapper section.header-section h1{
+    font-size: 1.8rem;
+}
+
+#wrapper section.header-section p
+{
+    font-size: 1.4rem;
+}
+
+#wrapper section.summary-section,
+#wrapper section.objective-section,
+#wrapper section.proffesional-strenght-section,
+#wrapper section.technical-skills-section,
+#wrapper section.work-experience-section,
+#wrapper section.education-section,
+#wrapper section.certification-section
+ {
+    margin: 0 auto;
+    width: 850px;
+    padding: 1em;
+    text-align: justify;
+    text-justify: distribute-all-lines;
+}
+
+#wrapper section.summary-section,
+#wrapper section.objective-section
+{
+    margin-bottom: -1.4em;
+}
+
+#wrapper section.summary-section h2,
+#wrapper section.objective-section h2 {
+    text-align: center;
+    margin-bottom: .5em;
+}
+
+#wrapper section.summary-section p{
+    font-size: 1.4rem;
+    padding: .3em;
+    line-height: 1.5;
+    word-spacing: 1px;
+}
+
+#wrapper section.objective-section p{
+    font-size: 1.4rem;
+    padding: .3em;
+    line-height: 1.5;
+    word-spacing: 0.5px;
+}
+
+ul{
+    padding-left: 3em;
+    font-size: 1.4rem;
+    line-height: 1.5;
+    margin-bottom: 1.7em;
+}
+
+#wrapper section.proffesional-strenght-section,
+#wrapper section.technical-skills-section{
+    margin-bottom: -2em;
+}
+#wrapper section.work-experience-section h2{
+    margin-bottom: 1.3em;
+}
+
+h3{
+    font-size: 1.45rem;
+    margin-bottom: .3em;
+}
+
+.float-right{
+    float: right;
+    font-style: italic;
+    font-size: 1.3rem;
+}
+
+#wrapper section.work-experience-section .work-experience-1 p:nth-of-type(2),
+#wrapper section.work-experience-section .work-experience-2 p:nth-of-type(2),
+#wrapper section.work-experience-section .work-experience-3 p:nth-of-type(2),
+#wrapper section.work-experience-section .work-experience-4 p:nth-of-type(2){
+    font-weight: bolder;
+    font-size: 1.4rem;
+}
+
+#wrapper section.work-experience-section .work-experience-1 p:nth-of-type(3),
+#wrapper section.work-experience-section .work-experience-2 p:nth-of-type(3),
+#wrapper section.work-experience-section .work-experience-3 p:nth-of-type(3),
+#wrapper section.work-experience-section .work-experience-4 p:nth-of-type(3),
+#wrapper section.education-section .education-1 p:nth-of-type(2),
+#wrapper section.education-section .education-1 p:nth-of-type(3),
+#wrapper section.education-section .education-2 p:nth-of-type(2),
+#wrapper section.certification-section p:nth-of-type(even)
+{
+    font-size: 1.4rem;
+    line-height: 1.5;
+    word-spacing: 1px;
+}
+
+.italics-no{
+    font-style: normal;
+}
+
+#wrapper section.education-section .education-2 p:nth-of-type(2){
+    margin-top: .5em;
+}
+
+#wrapper section.certification-section p:nth-of-type(even){
+    line-height: 1.8;
+}
+
